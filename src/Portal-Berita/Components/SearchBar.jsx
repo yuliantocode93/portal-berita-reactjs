@@ -37,8 +37,6 @@ export default function SearchBar({ label, isLoading, callback }) {
   );
 }
 
-SearchBar.propTypes = {
-  label: PropTypes.string.isRequired,
-  isLoading: PropTypes.bool.isRequired,
-  callback: PropTypes.func.isRequired,
+SearchBar.propType = {
+  isLoading: PropTypes.bool,
 };

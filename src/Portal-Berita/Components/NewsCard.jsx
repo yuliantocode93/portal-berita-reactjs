@@ -5,7 +5,6 @@ export default function NewsCard({ article }) {
   return (
     <Card sx={{ minWidth: 275 }}>
       {article ? <CardMedia component="img" height="180" image={article.urlToImage} /> : <Skeleton variant="rectangular" height={180} />}
-
       <CardContent>
         <Typography
           sx={{
